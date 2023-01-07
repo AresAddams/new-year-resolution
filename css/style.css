@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'work sans';
+}
+
+.button1 {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+.section-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+/* banner design */
+header {
+    background: url(../images/banner/banner3.png);
+    background-size: cover;
+}
+
+.banner {
+    text-align: right;
+    margin-right: 90px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 130px;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+
+main {
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+/* last year failed mission */
+.failed-mission {
+    display: flex;
+    gap: 80px;
+}
+
+.failed-mission-contain {
+    margin-top: 300px;
+}
+
+.failed-mission-contain ul {
+    list-style: none;
+}
+
+.failed-mission-contain ul li {
+    margin-bottom: 10px;
+}
+
+.failed-mission-contain ul li i {
+    color: #16D887;
+}
+
+/* MY PLANS */
+.my-plans {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.plan-items-container {
+    display: flex;
+    gap: 80px;
+}
+
+.plan-item h2 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.plan-item p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+.call-now {
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border-radius: 8px;
+}
+
+.call-now-content {
+    margin-left: 64px;
+    padding-top: 60px;
+}
+
+/* CONTACT WITH ME */
+.contact {
+    background: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
+}
+
+.contact input[type="text"] {
+    padding: 15px;
+}
+
+.contact input[type="email"] {
+    padding: 15px;
+}
+
+
+.contactWithMe {
+    text-align: center;
+}
+
+hr {
+    width: 200px;
+    margin: auto;
+    height: 5px;
+    background: #fff;
+    border: none;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.contact input {
+    height: 50px;
+}
+
+.contact-button {
+    padding: 20px 30px;
+    font-size: 18px;
+    margin: 20px auto;
+    display: block;
+    color: #fff;
+    background: #0f66ad;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-button:hover {
+    background: #003d8c;
+}
+
+/* footer */
+footer {
+    background: #151414;
+
+}
+
+.footer-container {
+    display: flex;
+    gap: 300px;
+    padding: 100px;
+
+}
+
+.future-description {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.email {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.phone {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.icon {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.subscribe h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.subscribe input[type="email"] {
+    padding: 20px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.subscribe input[type="submit"] {
+    background: #005FAC;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.subscribe input[type="submit"]:hover {
+    background: #003d8c;
+}
