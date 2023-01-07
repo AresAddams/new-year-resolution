@@ -92,24 +92,24 @@ main {
 }
 
 /* MY PLANS */
-.my-plans {
+.newYearPlans {
     text-align: center;
     margin-top: 120px;
 }
 
-.plan-items-container {
+.newYearPlansContainer {
     display: flex;
     gap: 80px;
 }
 
-.plan-item h2 {
+.newPlans h2 {
     font-weight: 700;
     font-size: 30px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
 
-.plan-item p {
+.newPlans p {
     font-weight: 500;
     font-size: 25px;
     line-height: 29px;
